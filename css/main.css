@@ -2292,6 +2292,18 @@ header .logo a {
 #stats .row {
   max-width: 1440px;
 }
+
+#stats .row h1 {
+  font-size: 3.6rem;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+#stats .row p {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
 #stats .stat {
   border-left: 1px solid rgba(255, 255, 255, 0.12);
   min-height: 17.4rem;
@@ -2328,6 +2340,16 @@ header .logo a {
   #stats .stat:nth-child(3n + 1) {
     border: none;
   }
+
+  #stats .row h1 {
+    font-size: 3.6rem;
+    color: #ffffff;
+  }
+
+  #stats .row p {
+    font-size: 2rem;
+    color: #ffffff;
+  }
 }
 @media only screen and (max-width: 768px) {
   #stats .stat:nth-child(n) {
@@ -2336,10 +2358,25 @@ header .logo a {
   #stats .stat:nth-child(2n + 1) {
     border: none;
   }
+
+  #stats .row h1 {
+    font-size: 3rem;
+    color: #ffffff;
+  }
+
+  #stats .row p {
+    font-size: 1.7rem;
+    color: #ffffff;
+  }
 }
 @media only screen and (max-width: 600px) {
   #stats .stat:nth-child(n) {
     border: none;
+  }
+
+  #stats .row h1 {
+    font-size: 2.6rem;
+    color: #ffffff;
   }
 }
 
