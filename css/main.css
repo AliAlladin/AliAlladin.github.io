@@ -2284,24 +2284,24 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #stats {
-  background: #990047;
+  background: #ffffff;
   padding-top: 7.2rem;
   padding-bottom: 6rem;
   text-align: center;
 }
 #stats .row {
+  width: 50%;
   max-width: 1440px;
 }
 
 #stats .row h1 {
   font-size: 3.6rem;
-  color: #ffffff;
   margin-bottom: 0px;
+  color: #ff0077;
 }
 
 #stats .row p {
   font-size: 2rem;
-  color: #ffffff;
 }
 
 #stats .stat {
@@ -2341,14 +2341,17 @@ header .logo a {
     border: none;
   }
 
+  #stats .row {
+    width: 65%;
+  }
+
   #stats .row h1 {
     font-size: 3.6rem;
-    color: #ffffff;
+    color: #ff0077;
   }
 
   #stats .row p {
     font-size: 2rem;
-    color: #ffffff;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -2359,14 +2362,17 @@ header .logo a {
     border: none;
   }
 
+  #stats .row {
+    width: 80%;
+  }
+
   #stats .row h1 {
     font-size: 3rem;
-    color: #ffffff;
+    color: #ff0077;
   }
 
   #stats .row p {
     font-size: 1.7rem;
-    color: #ffffff;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -2374,9 +2380,13 @@ header .logo a {
     border: none;
   }
 
+  #stats .row {
+    width: 95%;
+  }
+
   #stats .row h1 {
     font-size: 2.6rem;
-    color: #ffffff;
+    color: #ff0077;
   }
 }
 
