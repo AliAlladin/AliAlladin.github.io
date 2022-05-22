@@ -104,7 +104,7 @@ a:active {
 }
 
 a[href^="tel"] {
-  color: inherit;
+  color: #6e6e6e;
   text-decoration: none;
 }
 
